@@ -1,4 +1,3 @@
-// Importing http module
 const http = require('http');
 
 // Creating server
@@ -14,4 +13,4 @@ const port = 3000;
 // Server listens on defined port
 server.listen(port, () => {
     console.log(`Server running at http://localhost:${port}/`);
-) // Syntax error: closing parenthesis is missing the matching opening parenthesis
+}); // Fixed syntax error: added missing opening parenthesis```
