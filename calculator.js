@@ -11,6 +11,16 @@ const calculator = {
     // Multiplication
     multiply: function (num1, num2) {
         return num1 * num2;
+    },
+    // Division
+    divide: function (num1, num2) {
+        // Check for division by zero
+        if (num2 === 0) {
+            console.error('Error: Division by zero is not allowed.');
+            return undefined;
+        } else {
+            return num1 / num2;
+        }
     }
 };
 
